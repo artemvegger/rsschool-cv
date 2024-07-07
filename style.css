@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@100..900&family=Ubuntu+Mono&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,8 +7,80 @@ body {
 
 header>nav>ul {
     display: flex;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .icon {
     height: 15px;
+}
+
+h1 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 41.8px;
+}
+
+h2 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16.8px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+time {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+code {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.github-link>a, time {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+header {
+    background-color: #272727;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: #F6F6F6;
+    min-width: 320px;
+}
+
+footer {
+    background-color: #272727;
+    display: flex;
+}
+
+li {
+    display: flex;
 }
