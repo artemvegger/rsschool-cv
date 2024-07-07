@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@100..900&family=Ubuntu+Mono&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header {
+    background-color: #272727;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > nav > ul {
+    display: flex;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0;
+
+}
+
+header > nav > ul > li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.icon {
+    height: 15px;
+    margin-right: 5px;
+}
+
+h1 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 41.8px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16.8px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+time {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+code {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.github-link > a, time {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section {
+    background-color: #F6F6F6;
+    min-width: 300px;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+footer {
+    background-color: #272727;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer > .container {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-me-container {
+    max-width: 70%;
+}
+
+.rs-school-logo {
+    width: 82px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 720px;
+}
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: #fff;
+}
