@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header>nav>ul {
+    display: flex;
+}
+
+.icon {
+    height: 15px;
+}
